@@ -1,0 +1,22 @@
+{
+  "name": "MyBootstrapApp",
+  "homepage": "https://github.com/AbelCruz13/DAW_ABEL",
+  "authors": [
+    "AbelCruz13 <abel.rodrigo.cruz@gmail.com>"
+  ],
+  "description": "How to use bootstrapp framework",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "boostrap": "^4.1.1",
+    "fontawesome": "^5.0.13",
+    "jquery": "^3.3.1"
+  }
+}
