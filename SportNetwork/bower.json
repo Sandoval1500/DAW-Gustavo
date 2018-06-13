@@ -1,0 +1,23 @@
+{
+  "name": "SportNetwork",
+  "homepage": "https://github.com/Sandoval1500/DAW-Gustavo",
+  "authors": [
+    "Sandoval1500 <gustavo.sandoval.mendoza@alumno.uttehuacan.edu.mx>"
+  ],
+  "description": "This is our online commerce page",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "fontawesome": "^5.0.13"
+  }
+}
