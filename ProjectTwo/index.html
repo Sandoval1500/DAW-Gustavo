@@ -30,10 +30,21 @@
   </div>
 </nav>
 
-  <!-- agregar la libreria de jquery para la bootstrap js funcione -->
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <!-- se agrega la libreria de JS-->
-  <script src="bower_components/bootstrap/dist/js/bootstrap.js"> </script>
-
+<!-- se agrega la libreria de jqueria para que boostra.js funcione-->
+<script src="bower_components\jquery\dist\jquery.js"></script>
+<!-- Se agrega a librería de bootstrab.js para las animaciones-->
+<script src="bower_components\boostrap\dist\js\bootstrap.js"></script>
+<script src="bower_components\hammerjs\hammer.js"></script>
+<script>
+var $doby = document.body;
+var hammertime = new Hammer($doby);
+hammertime.on('swipeleft', function(ev) {
+console.log(ev);
+});
+var hammertime = new Hammer($doby);
+hammertime.on('swiperight', function(ev) {
+console.log(ev);
+});
+</script>
 </body>
 </html>
