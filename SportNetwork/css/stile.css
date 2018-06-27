@@ -1,8 +1,13 @@
-.carousel-indicators{
-  width: 70px;
-  height: 50;
+body{
+  width:auto;
 }
-.carousel-iner{
-  width: 70px;
-  height: 50;
+.color{
+  color: dark;
+}
+.footer{
+  background-color:#6E6E6E;
+  padding-top: 20px;
+}
+.letra{
+font-size: 30px;
 }
