@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SportNetwork</title>
+  <!-- se agrega las carpetas para estilo y color de las letras y menus-->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <!-- se agrega la libreria de iconos-->
+  <link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+  <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+  <!-- MENU PRINCIPAL DE LA PAGINA <--></-->
+</nav>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a href="index.html" class="navbar-brand">   <img src="img/descarga.png" width="30" height="30" class="d-inline-block align-top" alt="">Sport Network</a>
+    <button class="navbar-toggler"data-toggle="collapse" data-target="#navegacion"><span class="navbar-toggler-icon"></span></button>
+    <div id="navegacion" class=" justify-content-end collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item"> <a href="index.html" class="nav-link">Inicio</a></li>
+        <li class="nav-item"> <a href="basquetbol.html" class="nav-link">Basquetbol</a></li>
+        <li class="nav-item"><a href="tenis.html" class="nav-link">Tenis</a></li>
+        <li class="nav-item"> <a href="natacion.html" class="nav-link">Natación</a></li>
+        <li class="nav-item"> <a href="voleibol.html" class="nav-link">Voleibol</a></li>
+        <li class="nav-item"><a href="box.html" class="nav-link">Box</a></li>
+        <li class="nav-item"> <a href="futbol.html" class="nav-link">Futbol</a></li>
+        <li class="nav-item"> <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      </li>
+      </ul>
+    </div>
+</nav>
+<hr><hr>
+<!-- FOOTER DE LA PAGINA WEB-->
+<hr>
+<div class="footer">
+  <div class="container">
+    <div class="row ">
+      <div class=" text-center col-md- col-sm-2 col-6">
+        <h4>Siguenos</h4>
+        <ul class="list-unstyled ">
+          <li><a href="">acerca de nosotros<i class="fas fa-ban"></i></a></li>
+          <li><a href="">contacto<i class="fas fa-phone"></i></a></li>
+            <li><a href="">Blog <i class="fab fa-blogger"></i></a></li>
+            <li><a href="">Twitter <i class="fab fa-twitter"></i></a></li>
+            <li><a href="">Facebook <i class="fab fa-facebook"></i></a></li>
+        </ul>
+      </div>
+      <div class=" text-center col-md-4 offset-md-1 col-sm-4 col-6">
+        <h4>Contactanos</h4>
+        <ul class="list-unstyled">
+          <li><a href="">Tehuacan, Puebla</a></li>
+          <li><a href="">2382085897 <i class="fas fa-phone"></i></a></li>
+          <li><a href="">SportNetwork@gmail.com<i class="fas fa-envelope-square"></i></a></li>
+        </ul>
+      </div>
+      <div class=" text-center col-md-4 offset-md-1 col-sm-4 col-6">
+        <img src="img/descarga.png" width="120" height="120">
+      </div>
+    </div>
+  </div>
+
+  <!-- se agrega la libreria de jqueria para que boostra.js funcione-->
+  <script src="bower_components\jquery\dist\jquery.js"></script>
+  <!-- Se agrega a librería de bootstrab.js para las animaciones-->
+  <script src="bower_components\bootstrap\dist\js\bootstrap.js"></script>
+  <script src="bower_components\hammerjs\hammer.js"></script>
+  <script>
+  var $doby = document.body;
+  var hammertime = new Hammer($doby);
+  hammertime.on('swipeleft', function(ev) {
+  console.log(ev);
+  });
+  var hammertime = new Hammer($doby);
+  hammertime.on('swiperight', function(ev) {
+  console.log(ev);
+  });
+  </script>
+  </body>
+  </html>
