@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -12,8 +12,8 @@
   <link rel="stylesheet" href="css/stile.css">
 </head>
 <body>
-  <!-- MENU PRINCIPAL DE LA PAGINA <-->
-
+  <!-- MENU PRINCIPAL DE LA PAGINA <--></-->
+</nav>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a href="index.html" class="navbar-brand">   <img src="img/descarga.png" width="30" height="30" class="d-inline-block align-top" alt="">Sport Network</a>
     <button class="navbar-toggler"data-toggle="collapse" data-target="#navegacion"><span class="navbar-toggler-icon"></span></button>
@@ -26,6 +26,7 @@
         <li class="nav-item"> <a href="voleibol.html" class="nav-link">Voleibol</a></li>
         <li class="nav-item"><a href="box.html" class="nav-link">Box</a></li>
         <li class="nav-item"> <a href="futbol.html" class="nav-link">Futbol</a></li>
+	<li class="nav-item"> <a href="#" class="nav-link color=red" data-toggle="modal" data-target="#modal-contact-form">Cantactanos</a></li>
         <li class="nav-item"> <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -34,9 +35,89 @@
       </ul>
     </div>
 </nav>
+<hr><hr>
+<div class="container">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="#">Products</a>
+      </li>
+    </ol>
+  </nav>
+<div class="row">
+  <h1>Playeras. <small class="text-muted"> Lo más nuevo para tí</small></h1>
+</div>
+<hr>
+<div class="row">
+  <div class="card col-md-4">
+    <img src="img/11.jpg" alt="200" width="200" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Product</h5>
+      <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, fugit, ipsam.</p>
+      <a href="description-product.html" class="btn btn-primary">ver mas ...</a>
+     </div>
+  </div>
 
+  <!-- /.card-col-md-4 -->
+  <div class="card col-md-4">
+    <img src="img/13.jpg" alt="" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Product 2</h5>
+      <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, fugit, ipsam.</p>
+      <a href="description-product.html" class="btn btn-primary">ver mas ...</a>
+     </div>
+  </div>
+
+  <!-- /.card-col-md-4 -->
+    <div class="card col-md-4">
+      <img src="img/11.jpg" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Product 3</h5>
+        <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, fugit, ipsam.</p>
+        <a href="description-product.html" class="btn btn-primary">ver mas ...</a>
+       </div>
+    </div>
+</div>
+<hr>
+<div class="row">
+  <h1>Playeras. <small class="text-muted"> Lo más nuevo para tí</small></h1>
+</div>
+<hr>
+<div class="row">
+  <div class="card col-md-4">
+    <img src="img/11.jpg" alt="" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Product</h5>
+      <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, fugit, ipsam.</p>
+      <a href="description-product.html" class="btn btn-primary">ver mas ...</a>
+     </div>
+  </div>
+  <!-- /.card-col-md-4 -->
+  <div class="card col-md-4">
+    <img src="img/13.jpg" alt="" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Product 2</h5>
+      <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, fugit, ipsam.</p>
+      <a href="description-product.html" class="btn btn-primary">ver mas ...</a>
+     </div>
+  </div>
+
+  <!-- /.card-col-md-4 -->
+    <div class="card col-md-4">
+      <img src="img/11.jpg" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Product 3</h5>
+        <p class="card-text text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, fugit, ipsam.</p>
+        <a href="description-product.html" class="btn btn-primary">ver mas ...</a>
+       </div>
+    </div>
+</div>
+</div>
+<hr>
 <!-- FOOTER DE LA PAGINA WEB-->
-<hr><hr><hr>
 <div class="footer">
   <div class="container">
     <div class="row ">
@@ -63,8 +144,45 @@
       </div>
     </div>
   </div>
+ <!-- container-->
+  <div class="modal fade" id="modal-contact-form" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"> Contact Us </h5>
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div> <!-- end header -->
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="contact-email" class="col-form-label">
+                Email:
+              </label>
+              <input type="email" class="form-control" id="contact-email">
+            </div>
+            <div class="form-group">
+              <label for="contact-name" class="col form-label">Name:</label>
+              <input type="text" class="form-control" id="contact-name">
+            </div>
+            <div class="form-group">
+              <label for="contact-message" class="col-form-label">Message:</label>
+              <textarea id="contact-message" cols="30" rows="10" class="form-control"></textarea>
+            </div>
+          </form>
+        </div> <!--end body -->
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-dismiss="modal">
+            close
+          </button>
+          <button class="btn-btn-primary">
+            send
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
-
   <!-- se agrega la libreria de jqueria para que boostra.js funcione-->
   <script src="bower_components\jquery\dist\jquery.js"></script>
   <!-- Se agrega a librería de bootstrab.js para las animaciones-->
